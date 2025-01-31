@@ -4,6 +4,9 @@ class Book:
         self.author = author
         self._is_checked_out = False
 
+    def return_book(self):
+        return
+
 class Library:
     def __init__(self):
         self._books = []
