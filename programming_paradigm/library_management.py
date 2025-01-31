@@ -22,7 +22,7 @@ class Library:
 
     def return_book(self,title):
         for book in self._books:
-            if book.title ==title:
+            if book.title == title:
                 if book._is_checked_out:
                     book._is_checked_out = False
                     return "The book has been returned."
